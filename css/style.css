@@ -1,0 +1,57 @@
+body {
+	background-color: salmon;
+	font-family: monospace;
+}
+
+.home .jumbotron {
+	margin-top: 180px;
+}
+
+hr {
+	width: 300px;
+	border-top: 4px solid #eaeaea;
+} 
+
+img {
+	width: 200px;
+	border: 5px solid #eaeaea; 
+	box-shadow: 1px, 1px, 10px rgba(0,0,0,0.5);
+}
+
+section {
+	margin-top: 40px;
+	min-height: 600px;
+}
+
+section p {
+	font-size: 20px;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	border: none;
+}
+
+.panjang hr {
+	width: 555px;
+}
+
+.pKiri, .pKanan {
+	opacity: 0;
+	transform: translate(-50px, 0) rotate(15deg);
+	transition: 1s;
+}
+
+.pKanan {
+	transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pKiri.pMuncul, .pKanan.pMuncul {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.skill img {
+	width: 25 0px;
+}
