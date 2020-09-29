@@ -33,10 +33,6 @@ section p {
 	border: none;
 }
 
-.panjang hr {
-	width: 555px;
-}
-
 .pKiri, .pKanan {
 	opacity: 0;
 	transform: translate(-50px, 0) rotate(15deg);
