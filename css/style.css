@@ -37,6 +37,12 @@ section p {
 	border: none;
 }
 
+.gambarPortofolio img {
+	border: none;
+	width: 400px;
+	height: 200px;
+}
+
 .pKiri, .pKanan {
 	opacity: 0;
 	transform: translate(-50px, 0) rotate(15deg);
